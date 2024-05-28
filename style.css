@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-image: url("abstract-pattern-made-leaves.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container {
+  /* container inside the body */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-container {
+  width: 450px;
+  padding: 40px;
+  margin: 100px 0;
+  background: transparent;
+  backdrop-filter: blur(5px);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.53);
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+.heading {
+  font-size: 25px;
+  margin-bottom: 20px;
+  color: black;
+  -webkit-text-fill-color: black;/* Will override color (regardless of order) */
+  -webkit-text-stroke: 1px white;
+}
+
+.input-wrapper {
+  display: flex;
+  gap: 5px;
+}
+
+input {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  font-size: 20px;
+  outline: none;
+  border-radius: 5px;
+}
+
+button {
+  width: 20%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  background-color: #854fee;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.text ul {
+  position: relative;
+  font-size: 20px;
+  color: white;
+  background-color: rgb(108, 46, 208);
+  border-radius: 5px;
+  padding: 10px;
+  text-align: left;
+  margin: 10px 0;
+}
+
+.text ul i {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+}
